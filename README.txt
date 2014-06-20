@@ -1,8 +1,8 @@
 === Widget Name ===
 
-Contributors: gustavo
+Contributors: Gustavo and pedalo team
 Donate link: http://gustavoliedke.com/
-Tags: widget, CTA
+Tags: Shortcode, more less, hide show
 Requires at least: 3.3.1
 Tested up to: 3.8.1
 Stable tag: 4.3
@@ -13,7 +13,7 @@ Here is a short description of the plugin.  This should be no more than 150 char
 
 == Description ==
 
-This is a shortcode to show more less content
+This is a shortcode to show more less content. It will add a button to Tinymce editor
 
 work on
 

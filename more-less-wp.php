@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: More Less WP
+Plugin Name: More Less Shortcode
 Plugin URI: http://www.pedalo.co.uk
-Description: Show more less shortcode
+Description: Shortcode to Show more less content
 Version: 0.1 
 Author: Gustavo Liedke
 Author URI: http://www.gustavoliedke.com
@@ -11,7 +11,7 @@ Author URI: http://www.gustavoliedke.com
 /*
 Show more less shortcode (Wordpress Plugin)
 Copyright (C) 2014 Gustavo Liedke
-Contact me at http://www.gustavoliedke.com
+Contact me at http://www.pedalo.co.uk
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -36,11 +36,11 @@ function more_less_shortcode( $attributes, $content = null ) {
 	), $attributes ) );
 
 	//process plugin
-	$shortcode_output = '<a href="#" class="button-more">Show more</a><div class="content-hide hide">' . $content . '</div>';
+	$shortcode_output = '<button class="moreless">Show more</button><div class="content-hide hide">' . $content . '</div>';
 	//send back text to calling function
 	return $shortcode_output;
 }
-// Registering a button
+// Registering a button to tinymce
 function register_button( $buttons ) {
    array_push( $buttons, "|", "moreless" );
    return $buttons;

@@ -1,7 +1,7 @@
 (function($){
 $(document).ready(function($){
 		// Hide the extra content initially, using JS so that if JS is disabled, no problemo:
-	$('.button-more').click(function(e){
+	$('.moreless').click(function(e){
 		e.preventDefault();
 	  	label = $(this).html();
 		$('.content-hide').toggle();

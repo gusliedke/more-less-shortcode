@@ -6,7 +6,7 @@
             title : 'Show more less',
             image : url+'/moreless.png',
             onclick : function() {
-               ed.execCommand('mceInsertContent', false, '[moreless] Content to hide here.. [/moreless]');
+               ed.execCommand('mceInsertContent', false, '[moreless] Content to hide goes here.. [/moreless]');
             }
          });
       },
