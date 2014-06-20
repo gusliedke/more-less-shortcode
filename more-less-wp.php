@@ -70,8 +70,8 @@ add_action('init', 'moreless_button');
  */
 function more_less_shortcode_scripts() {
 	if( get_option( 'more_less_disable_scripts' ) != 'no' ) {
-    wp_enqueue_style('more_less_shortcode', MORE_LESS_SHORTCODE .'/assets/css/more_less-shortcodes.css');
-    wp_enqueue_script('more_less_shortcode', MORE_LESS_SHORTCODE .'/assets/js/more_less-shortcodes.js',array('jquery'), true);
+    wp_enqueue_style('more_less_shortcode', MORE_LESS_SHORTCODE .'/assets/css/more-less-shortcode.css');
+    wp_enqueue_script('more_less_shortcode', MORE_LESS_SHORTCODE .'/assets/js/more-less-shortcode.js',array('jquery'), true);
 	}
 }
 add_action( 'wp_enqueue_scripts', 'more_less_shortcode_scripts');

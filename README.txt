@@ -2,10 +2,10 @@
 
 Contributors: Gustavo and pedalo team
 Donate link: http://gustavoliedke.com/
-Tags: Shortcode, more less, hide show
+Tags: Shortcode, more less, hide show content
 Requires at least: 3.3.1
 Tested up to: 3.8.1
-Stable tag: 4.3
+Stable tag: 0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,9 +35,8 @@ What about?
 
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the directory of the stable readme.txt, so in this case, `/tags/4.3/screenshot-1.png` (or jpg, jpeg, gif)
-2. This is the second screen shot
+1. To add the shortcode simple click on the Show More Less button or enter the shortcode [/moreless][moreless].
+
 
 == Changelog ==
 
