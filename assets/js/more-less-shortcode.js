@@ -4,7 +4,8 @@ $(document).ready(function($){
 	$('.moreless').click(function(e){
 		e.preventDefault();
 	  	label = $(this).html();
-		$('.content-hide').toggle();
+		$(this).next('.content-hide').addClass('on');
+		$('.content-hide.on').toggle().removeClass('on');
 
 		var text = (label == 'Show less') ? 'Show more' : 'Show less';
 		$(this).html(text); 

@@ -2,3 +2,7 @@
 .content-hide {
 	display: none;
 }
+.moreless {
+	display: block;
+	margin: 10px 0;
+}
