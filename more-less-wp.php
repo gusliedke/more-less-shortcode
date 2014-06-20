@@ -2,10 +2,10 @@
 /*
 Plugin Name: More Less Shortcode
 Plugin URI: http://www.pedalo.co.uk
-Description: Shortcode to Show more less content
+Description: Shortcode to Show more less content. Simple click on 'more less shortcode' button or add the shortcode [moreless]your content goes here..[/moreless]
 Version: 0.1 
-Author: Gustavo Liedke
-Author URI: http://www.gustavoliedke.com
+Author: Pedalo
+Author URI: http://www.pedalo.co.uk
 */
 
 /*
